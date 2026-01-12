@@ -80,3 +80,41 @@ strong {
     margin-top: 5%;
   }
 
+
+/* Footer */
+
+  /* Footer content is centered */
+  .footerContent {
+   display: flex;
+   justify-content: space-evenly;
+  }
+
+  /* Columns have their text justified and aligned to the left */
+  /* Columns are centered on the footer */
+  .col {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+
+  /*Liens utiles in white and no underline*/
+  .footer-links li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /*Social links in grey and spaced a little*/
+  svg{
+    color: grey;
+    margin-right: 10px;
+  }
+
+
+
+  
+
+
+
+
+
+
