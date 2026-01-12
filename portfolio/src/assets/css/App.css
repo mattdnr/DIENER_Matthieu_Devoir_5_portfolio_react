@@ -103,6 +103,14 @@ strong {
     text-decoration: none;
   }
 
+  /*Social links in grey and spaced a little*/
+  svg{
+    color: grey;
+    margin-right: 10px;
+  }
+
+
+
   
 
 
