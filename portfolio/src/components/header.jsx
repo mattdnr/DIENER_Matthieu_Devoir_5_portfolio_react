@@ -11,10 +11,10 @@ export default function AppHeader() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">HOME</Nav.Link>
-            <Nav.Link href="#link">SERVICES</Nav.Link>
-            <Nav.Link href="#link">PORTFOLIO</Nav.Link>
-            <Nav.Link href="#link">CONTACT</Nav.Link>
-            <Nav.Link href="#link">MENTIONS LÉGALES</Nav.Link>
+            <Nav.Link href="#services">SERVICES</Nav.Link>
+            <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
+            <Nav.Link href="#contact">CONTACT</Nav.Link>
+            <Nav.Link href="#mentions-legales">MENTIONS LÉGALES</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
