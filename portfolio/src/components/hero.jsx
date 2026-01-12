@@ -3,7 +3,9 @@ import { Button } from 'react-bootstrap';
 import React from 'react';
 
 
-function HeroImage() {
+
+
+export default function AppHero() {
     return (
       <div class="hero-image">  
         <div class="hero-text">
@@ -12,15 +14,5 @@ function HeroImage() {
           <Button variant="danger" href='#modal'>En savoir plus</Button>
         </div>
       </div>
-    )
-}
-
-
-
-export default function AppHero() {
-    return (
-        <div>
-            {HeroImage()}
-        </div>
     )  
 }
