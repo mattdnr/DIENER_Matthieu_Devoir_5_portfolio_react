@@ -47,27 +47,6 @@ strong {
   }
 
 /* About section */
-/* All content align to left and all display is flex */
-.about {
-  text-align: left;
-  margin: auto;
-  margin-top: 1%;
-  padding-top: 2%;
-  width: 90%;
-  display: flex;
-
-}
-  /* About me image with a bit of padding */
-  .about-me-image {
-    padding-top: 1%;
-    padding-bottom: 1%;
-  }
-
-  /* About me text with a bit of padding */
-  .about-me-text {
-    padding-top: 1%;
-    padding-bottom: 1%;
-  }
 
   /* Skills section */
   /* Get the labels closer to the progress bars */
