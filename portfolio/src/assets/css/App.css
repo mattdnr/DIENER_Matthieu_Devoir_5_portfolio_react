@@ -109,6 +109,17 @@ strong {
     margin-right: 10px;
   }
 
+  /* On mobile content wraps in one column and  */
+  @media (max-width: 768px) {
+    .footerContent {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  }
+
+
+
+
 
 /* Portfolio section */
 

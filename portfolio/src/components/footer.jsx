@@ -5,7 +5,7 @@ export default function AppFooter() {
     return (
         <div class="container-fluid w-100 p-5 bg-body-tertiary text-white rounded" data-bs-theme="dark">
             <div class="footerContent align-items-start">
-                <div class="col">
+                <div class="col p-2">
                     <address>
                         <p>
                             <h5>John Doe</h5>
@@ -34,7 +34,7 @@ export default function AppFooter() {
                     </div>
 
                 </div>
-                <div class="col">
+                <div class="col p-2">
                     <nav>
                         <h5>Liens utiles</h5>
                         <ul class="footer-links list-unstyled">
@@ -46,7 +46,7 @@ export default function AppFooter() {
                         </ul>
                     </nav>
                 </div>
-                <div class="col">
+                <div class="col p-2">
                     <nav>
                         <h5>Mes dernières réalisations</h5>
                         <ul class="footer-links list-unstyled">
