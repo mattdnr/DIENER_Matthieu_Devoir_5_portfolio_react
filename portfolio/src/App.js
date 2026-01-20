@@ -11,9 +11,6 @@ import AppHeader from './components/header';
 import AppFooter from './components/footer';
 
 
-
-
-
 function App() {
   return (
     <Router>
