@@ -1,5 +1,4 @@
 
-import { Button } from 'react-bootstrap';
 import React from 'react';
 import AppModal from './modal';
 

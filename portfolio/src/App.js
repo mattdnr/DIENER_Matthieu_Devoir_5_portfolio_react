@@ -1,25 +1,28 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/App.css';
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home/home';
+import AppPortfolio from './pages/portfolio';
 import AppHeader from './components/header';
-import AppHero from './components/hero';
-import AppAbout from './components/about';
 import AppFooter from './components/footer';
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header id='header'>
-        <AppHeader />
-      </header>
-      <main>
-        <AppHero />
-        <AppAbout />
-      </main>
-      <footer id='footer'>
-        <AppFooter />
-      </footer>
-    </div>
+    <Router>
+      <AppHeader />
+
+      <Routes>
+        <Route path='/home' element={<Home />} />
+        <Route path="/portfolio" element={<AppPortfolio />} />
+      </Routes>
+
+      <AppFooter />
+    </Router>
   );
 }
 
