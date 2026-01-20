@@ -14,7 +14,7 @@ export default function AppAbout() {
                 <h3>A propos</h3>
                 <hr className="border border-primary border-3 opacity-75"></hr>
                 <div className="py-1">
-                    <img src="images/john-doe-about.jpg" alt="john-doe-about" />
+                    <img src="images/john-doe-about.jpg" alt="john-doe-about" className="img-fluid" />
                 </div>
                 <div className="py-1">
                     <p className="text-left text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
