@@ -121,6 +121,14 @@ strong {
   }
 
 
+/* Contact section */
+
+  /* Textarea gets bigger */
+  textarea {
+    height: 250px;
+  }
+
+
 
 
 
