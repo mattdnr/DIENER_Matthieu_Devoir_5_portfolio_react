@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home/home';
 import Services from './pages/Services/services';
 import Portfolio from './pages/Portfolio/portfolio';
@@ -17,6 +17,7 @@ function App() {
       <AppHeader />
 
       <Routes>
+        <Route path='/' element={<Navigate to="/home" replace />} />
         <Route path='/home' element={<Home />} />
         <Route path='/services' element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
