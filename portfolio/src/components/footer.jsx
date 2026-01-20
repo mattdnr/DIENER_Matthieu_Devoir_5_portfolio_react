@@ -38,11 +38,11 @@ export default function AppFooter() {
                     <nav>
                         <h5>Liens utiles</h5>
                         <ul class="footer-links list-unstyled">
-                            <li><a href="#home">Accueil</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#contact">Me contacter</a></li>
-                            <li><a href="#mentions-legales">Mentions légales</a></li>
+                            <li><a href="/home">Accueil</a></li>
+                            <li><a href="/services">Services</a></li>
+                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li><a href="/contact">Me contacter</a></li>
+                            <li><a href="/mentions-legales">Mentions légales</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -50,12 +50,12 @@ export default function AppFooter() {
                     <nav>
                         <h5>Mes dernières réalisations</h5>
                         <ul class="footer-links list-unstyled">
-                            <li><a href="#portfolio">Fresh Food</a></li>
-                            <li><a href="#portfolio">Restaurant Akira</a></li>
-                            <li><a href="#portfolio">Espace bien-être</a></li>
-                            <li><a href="#portfolio">SEO</a></li>
-                            <li><a href="#portfolio">Création d'une API</a></li>
-                            <li><a href="#portfolio">Maquette d'un site</a></li>
+                            <li><a href="/portfolio">Fresh Food</a></li>
+                            <li><a href="/portfolio">Restaurant Akira</a></li>
+                            <li><a href="/portfolio">Espace bien-être</a></li>
+                            <li><a href="/portfolio">SEO</a></li>
+                            <li><a href="/portfolio">Création d'une API</a></li>
+                            <li><a href="https://github.com/mattdnr/Diener_Matthieu_Devoir_4_Maquetter_le_site_Probeats_avec_Figma" target="_blank" rel="noreferrer">Maquette d'un site</a></li>
                         </ul>
                     </nav>
                 </div>

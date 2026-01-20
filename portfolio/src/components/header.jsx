@@ -15,7 +15,7 @@ export default function AppHeader() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav variant="underline" defaultActiveKey="/home" className="ms-auto">
+            <Nav variant="underline" className="ms-auto">
               <Nav.Link as={NavLink} to ="/home" href="/home">
                 HOME
               </Nav.Link>
