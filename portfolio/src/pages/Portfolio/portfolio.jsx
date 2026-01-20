@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 
-export default function AppPortfolio() {
+export default function Portfolio() {
     return (
         <div>
             <div class="container-fluid w-100 p-5 bg-body-tertiary text-white rounded">
