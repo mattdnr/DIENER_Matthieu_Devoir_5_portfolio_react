@@ -35,5 +35,5 @@ export default function AppHeader() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    )
+    );
 }
