@@ -111,12 +111,6 @@ strong {
 
 /* Modal styling */
 
-/* Modal container is flex and elements are side to side */
-.modal-body {
-  display: flex;
-  align-items: center;
-}
-
 
 
 

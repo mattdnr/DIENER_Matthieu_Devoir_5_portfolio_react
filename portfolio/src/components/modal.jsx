@@ -19,7 +19,7 @@ export default function AppModal() {
         <Modal.Header closeButton>
           <Modal.Title>Mon profil Github</Modal.Title>
         </Modal.Header>
-        <Modal.Body className="modal-body container">
+        <Modal.Body>
           <Posts/>
         </Modal.Body>
         <Modal.Footer>
