@@ -1,6 +1,7 @@
 
 import { Button } from 'react-bootstrap';
 import React from 'react';
+import AppModal from './modal';
 
 export default function AppHero() {
     return (
@@ -8,7 +9,7 @@ export default function AppHero() {
         <div class="hero-text">
           <h1>Bonjour, je suis John Doe</h1>
           <h2>Développeur web Full stack</h2>
-          <Button variant="danger" href='#modal'>En savoir plus</Button>
+          <AppModal/>
         </div>
       </div>
     )  
