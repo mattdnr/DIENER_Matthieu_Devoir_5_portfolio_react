@@ -13,6 +13,8 @@ export default function PortfolioCards() {
                 variant="top"
                 src="/images/portfolio/fresh-food.jpg"
                 className="img-fluid"
+                alt="Fresh food"
+                loading="lazy"
               />
               <Card.Body className="text-center">
                 <Card.Title>Fresh Food</Card.Title>
@@ -29,7 +31,12 @@ export default function PortfolioCards() {
 
           <div className="col-12 col-md-4">
             <Card className="h-100">
-              <Card.Img variant="top" src="/images/portfolio/restaurant-japonais.jpg" />
+              <Card.Img 
+              variant="top" 
+              src="/images/portfolio/restaurant-japonais.jpg"
+              alt="Japanese food"
+              loading="lazy"
+              />
               <Card.Body className="text-center">
                 <Card.Title>Restaurant Akira</Card.Title>
                 <Card.Text>Site d'un restaurant japonais.</Card.Text>
@@ -43,7 +50,12 @@ export default function PortfolioCards() {
 
           <div className="col-12 col-md-4">
             <Card className="h-100">
-              <Card.Img variant="top" src="/images/portfolio/espace-bien-etre.jpg" />
+              <Card.Img 
+              variant="top" 
+              src="/images/portfolio/espace-bien-etre.jpg" 
+              alt="Budda statue with a flower and rocks, zen landscape"
+              loading="lazy"
+              />
               <Card.Body className="text-center">
                 <Card.Title>Espace bien-être</Card.Title>
                 <Card.Text>Site d'un salon de massage.</Card.Text>
@@ -57,7 +69,12 @@ export default function PortfolioCards() {
 
           <div className="col-12 col-md-4">
             <Card className="h-100">
-              <Card.Img variant="top" src="/images/portfolio/seo.jpg" />
+              <Card.Img 
+              variant="top" 
+              src="/images/portfolio/seo.jpg"
+              alt="SEO brainstorm"
+              loading="lazy" 
+              />
               <Card.Body className="text-center">
                 <Card.Title>SEO</Card.Title>
                 <Card.Text>Amélioration du référencement d'un site e-commerce.</Card.Text>
@@ -71,7 +88,12 @@ export default function PortfolioCards() {
 
           <div className="col-12 col-md-4">
             <Card className="h-100">
-              <Card.Img variant="top" src="/images/portfolio/coder.jpg" />
+              <Card.Img 
+              variant="top" 
+              src="/images/portfolio/coder.jpg" 
+              alt="API Code lines"
+              loading="lazy"
+              />
               <Card.Body className="text-center">
                 <Card.Title>Création d'une API</Card.Title>
                 <Card.Text>Création d'une API RESTFULL publique.</Card.Text>
@@ -85,7 +107,12 @@ export default function PortfolioCards() {
 
           <div className="col-12 col-md-4">
             <Card className="h-100">
-              <Card.Img variant="top" src="/images/portfolio/screens.jpg" />
+              <Card.Img 
+              variant="top" 
+              src="/images/portfolio/screens.jpg" 
+              alt="Screens and laptop working on a website"
+              loading="lazy"
+              />
               <Card.Body className="text-center">
                 <Card.Title>Maquette d'un site web</Card.Title>
                 <Card.Text>Création du prototype d'un site.</Card.Text>

@@ -26,8 +26,9 @@ export default function Posts() {
             <div className='col-xl-6 col-lg-12 mb-3'>
                 <img 
                 src={posts.avatar_url}
-                alt="john-doe-github" 
+                alt="John Doe's Github profile" 
                 className='img-fluid d-block mx-auto'
+                loading="lazy"
                 />
             </div>
             <div className='col-xl-6 col-lg-12 mb-3'>
