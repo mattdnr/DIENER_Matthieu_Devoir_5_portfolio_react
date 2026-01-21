@@ -31,7 +31,7 @@ export default function AppAccordion() {
                     </address>
                 </Accordion.Body>
             </Accordion.Item>
-            <AccordionItem>
+            <AccordionItem eventKey="2">
                 <AccordionHeader>
                     Crédits
                 </AccordionHeader>
