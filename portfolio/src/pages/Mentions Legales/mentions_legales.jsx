@@ -1,5 +1,6 @@
 import React from "react";
 import NoIndex from "../../components/noindex";
+import AppAccordion from "./components/accordion";
 
 export default function MentionsLegales() {
     return (
@@ -11,6 +12,7 @@ export default function MentionsLegales() {
                     <hr className="border border-primary border-3 opacity-75 w-50 mx-auto" />
                 </div>
             </header>
+            <AppAccordion/>
         </div>
     );
 }
