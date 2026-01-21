@@ -91,7 +91,15 @@ strong {
     }
   }
 
+  /* On hover, social link icons get whiter */
+  .social-links a svg:hover {
+    color: white;
+  }
 
+  /* On hover, useful links must get bolder */
+  .footer-links li a:hover {
+    font-weight: bold;
+  }
 
 
 
