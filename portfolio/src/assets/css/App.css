@@ -62,11 +62,6 @@ strong {
 
 /* Footer */
 
-  /* Footer content is centered */
-  .footerContent {
-   display: flex;
-   justify-content: space-evenly;
-  }
 
   /* Columns have their text justified and aligned to the left */
   /* Columns are centered on the footer */
