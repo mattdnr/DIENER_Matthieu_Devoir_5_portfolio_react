@@ -77,12 +77,7 @@ strong {
     text-decoration: none;
   }
 
-  /*Social links in grey and spaced a little*/
-  svg{
-    color: grey;
-    margin-right: 10px;
-  }
-
+  
   /* On mobile content wraps in one column and  */
   @media (max-width: 768px) {
     .footerContent {
@@ -93,7 +88,7 @@ strong {
 
   /* On hover, social link icons get whiter */
   .social-links a svg:hover {
-    color: white;
+    color: white !important;
   }
 
   /* On hover, useful links must get bolder */
