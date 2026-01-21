@@ -3,8 +3,8 @@ import React from "react";
 
 export default function AppFooter() {
     return (
-        <div class="container-fluid w-100 p-5 bg-body-tertiary text-white rounded" data-bs-theme="dark">
-            <div class="footerContent align-items-start">
+        <div class="container-fluid p-5 bg-body-tertiary text-white" data-bs-theme="dark">
+            <div class="footerContent row align-items-start">
                 <div class="col p-2">
                     <address>
                         <p>

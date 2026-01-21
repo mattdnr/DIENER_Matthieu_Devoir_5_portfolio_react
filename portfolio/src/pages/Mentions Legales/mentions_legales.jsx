@@ -1,11 +1,18 @@
 import React from "react";
+import NoIndex from "../../components/noindex";
+import AppAccordion from "./components/accordion";
 
 export default function MentionsLegales() {
     return (
         <div>
-            <p>
-                Les mentions légales de l'entreprise
-            </p>
+            <NoIndex/>
+            <header>
+                <div className="container p-5">
+                    <h2 className="text-center">Mentions légales</h2>
+                    <hr className="border border-primary border-3 opacity-75 w-50 mx-auto" />
+                </div>
+            </header>
+            <AppAccordion/>
         </div>
     );
 }
