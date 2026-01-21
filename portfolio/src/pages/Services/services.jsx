@@ -1,5 +1,4 @@
 import React from "react";
-import { Card, CardBody, CardText } from "react-bootstrap";
 
 import AppBanner from "../../components/banner"
 import ServiceCards from "./components/cards"
