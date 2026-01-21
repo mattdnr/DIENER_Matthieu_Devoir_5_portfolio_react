@@ -1,5 +1,4 @@
 import React from "react";
-import { Card } from "react-bootstrap";
 
 import AppAddress from '../../components/address'
 import AppMapEmbed from "./components/mapembed"

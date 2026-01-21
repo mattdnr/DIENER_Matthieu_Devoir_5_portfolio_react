@@ -6,6 +6,7 @@ export default function AppMapEmbed() {
             <div class="col-lg-12">
                 <div className="ratio ratio-16x9">
                     <iframe
+                    title="john-doe-address-google-map"
                     className="my-3"
                     allowFullScreen
                     id="map-canvas" class="map_part" width="600"  height="400"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
